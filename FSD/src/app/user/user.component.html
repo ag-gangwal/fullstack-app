@@ -1,0 +1,67 @@
+<form [formGroup]="userForm" >
+  <label>
+    <td width="38%"> First Name: </td>
+    <td width="50"><input type="text" formControlName="firstName"></td>
+  </label>
+  <br><br>
+  <label>
+    <td width="38%"> Last Name: </td>
+    <td width="50"><input type="text" formControlName="lastName"></td>
+  </label>
+  <br><br>
+  <label>
+    <td width="38%">Employee ID:</td>
+    <td width="50"><input type="text" formControlName="employeeId"></td>
+  </label>
+  <br><br>
+  <td></td>
+  <td width="10%">
+  <button *ngIf="!isEdit" type="submit" [disabled]="!userForm.valid" (click)="addUser(userForm.value);userForm.reset()" >Add</button>&nbsp;&nbsp;
+  <button *ngIf="isEdit" type="submit" [disabled]="!userForm.valid" (click)="updateUser(userForm.value)">Update</button>&nbsp;
+  </td>
+  <td width="10%">
+  <button  type="reset" (click)="reset()" >Reset</button>&nbsp;&nbsp;
+  </td>
+
+  <br><br>
+<hr>
+  <br><br>
+  <input type="text" #searchbox id="search-box" (input)="search(searchbox.value)" placeholder="Search....">
+  Sort:
+  <button class="btn btn-success" (click)="sortData('firstName')" >First Name</button>&nbsp;&nbsp;
+  <button class="btn btn-success" (click)="sortData('lastName')">Last Name</button>&nbsp;&nbsp;
+  <button class="btn btn-success" (click)="sortData('employeeId')">Id</button>&nbsp;&nbsp;
+  <br><br>
+
+  <div *ngIf="allUsers && users?.length>0" id="allUsers">
+  <div class="row" *ngFor="let user of users ">
+
+    <div class="column">
+      <input type="text" value="{{user.firstName}}"> <br> <br>
+      <input type="text" value="{{user.lastName}}" > <br> <br>
+      <input type="text" value="{{user.employeeId}}" > <br><br><br>
+    </div>
+    <div class="column">
+      <button class="btn btn-success" type="button" (click)="editUser(user)">Edit</button>&nbsp;&nbsp;<br> <br>
+      <button class="btn btn-success" type="button" >Delete1</button>&nbsp;&nbsp;
+    </div>
+  </div>
+  </div>
+
+
+  <div *ngFor="let user of users$ | async" class="row" id="filterUsers" [style.display]="allUsers?'none':'inherit'">
+
+
+      <div class="column">
+        <input type="text" value="{{user.firstName}}"> <br>
+        <input type="text" value="{{user.lastName}}" > <br>
+        <input type="text" value="{{user.employeeId}}" > <br><br>
+
+      </div>
+      <div class="column">
+        <button class="btn btn-success" type="button" (click)="editUser(user)">Edit</button>&nbsp;&nbsp;
+        <button class="btn btn-success" type="button" >Delete</button>&nbsp;&nbsp;
+      </div>
+
+  </div>
+</form>

@@ -1,0 +1,34 @@
+<form [formGroup]="projectForm" >
+		<div >
+			<label for="project">Project:    </label>
+			<input type="text" formControlName="projectName" id="project" required>
+      </div><br><br>
+
+			<div >
+				<input type="checkbox" id="setDate" checked>&nbsp;&nbsp;
+				<label for="setDate">Set Start and End Date  </label>&nbsp;&nbsp;
+				<input type="date" id="startDate" formControlName="startDate" placeholder="Start Date">&nbsp;
+        <input type="date" id="endDate" formControlName="endDate" placeholder="End Date">&nbsp;&nbsp;
+      </div>
+        <br><br>
+					<label for="slider">Priority:    </label>&nbsp;&nbsp;
+					<input id="slider" formControlName="priority" type="range" min="0" step="10" max="500" />&nbsp;&nbsp;
+
+          <br><br>
+		  <div >
+			<label for="manager">Manager :    </label>
+			<input type="text" id="manager" formControlName="manager" required>&nbsp;&nbsp;
+      <input type="button"  class="buttonRound" value="Search"/>
+      </div><br><br>
+					<button type="submit" class="btn btn-success">Add</button>&nbsp;&nbsp;
+          <button type="reset" class="btn btn-success">Reset</button>
+
+
+<br><br>
+<hr>
+Sorty By <input type="button"  class="btn btn-success" value="Search"/>&nbsp;&nbsp;
+<input type="button"  class="btn btn-success" value="Start Date"/>&nbsp;&nbsp;
+<input type="button"  class="btn btn-success" value="End Date"/>&nbsp;&nbsp;
+<input type="button"  class="btn btn-success" value="Priority"/>&nbsp;&nbsp;
+<input type="button"  class="btn btn-success" value="Completed"/>&nbsp;&nbsp;
+</form>

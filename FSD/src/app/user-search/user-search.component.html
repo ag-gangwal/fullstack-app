@@ -1,0 +1,19 @@
+<br><br>
+<label for="search-box">Search:</label>
+  <input type="text" #searchbox id="search-box" (input)="search(searchbox.value)">
+  Sort:
+  <button class="btn btn-success" >First Name</button>&nbsp;&nbsp;
+  <button class="btn btn-success" >Last Name</button>&nbsp;&nbsp;
+  <button class="btn btn-success" >Id</button>&nbsp;&nbsp;
+
+<br><br>
+<li *ngFor="let user of users$ | async">
+
+  <input type="text" value="{{user.firstName}}">
+  <button class="btn btn-success" >Edit</button>&nbsp;&nbsp;
+  <br>
+  <input type="text" value="{{user.lastName}}" >
+  <button class="btn btn-success" >Delete</button>&nbsp;&nbsp;
+  <br>
+  <input type="text" value="{{user.employeeId}}" >
+</li>

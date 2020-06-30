@@ -1,0 +1,38 @@
+<form [formGroup]="taskForm" >
+  <div >
+    <label for="project">Project:    </label>
+    <input type="text" formControlName="projectName" id="project" required>&nbsp;&nbsp;
+    <input type="button"  class="buttonRound" value="Search"/>
+  </div><br><br>
+  <div >
+    <label for="task">Task:    </label>
+    <input type="text" formControlName="taskName" id="task" required> <br><br>
+    <input type="checkbox" id="setParent" checked>&nbsp;
+    <label for="setParent">Parent Task</label>&nbsp;&nbsp;
+  </div><br><br>
+
+  <label for="slider">Priority:    </label>&nbsp;&nbsp;
+  <input id="slider" formControlName="priority" type="range" min="0" step="10" max="500" />
+  <br><br>
+  <div >
+    <label for="parentTask">ParentTask:    </label>
+    <input type="text" formControlName="parentTask" id="parentTask" required> &nbsp;&nbsp;
+    <input type="button"  class="buttonRound" value="Search"/>
+  </div>
+  <br><br>
+  <div >
+    <label for="startDate">Start Date :    </label>
+    <input type="date" id="startDate" formControlName="startDate" placeholder="Start Date">&nbsp;
+    <label for="endDate">End Date :    </label>
+    <input type="date" id="endDate" formControlName="endDate" placeholder="End Date">&nbsp;&nbsp;
+  </div><br><br>
+  <div >
+    <label for="manager">User :    </label>
+    <input type="text" id="manager" formControlName="manager" required>&nbsp;&nbsp;
+    <input type="button"  class="buttonRound" value="Search"/>
+  </div><br><br>
+  <hr>
+  <button type="submit" class="btn btn-success">Add Task</button>&nbsp;&nbsp;
+  <button type="reset" class="btn btn-success">Reset</button>
+
+</form>
