@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="935254b7-9063-4abb-8f04-239fc8e0bd00" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1UDCXP5hWvvO0wMyZXvMx2FIhuW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fullstack.dao" />
+      <recent name="com.fullstack.controller" />
+      <recent name="com.fullstack.data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ag_ga\IdeaProjects\MyMavenModule\src\main\java\com\adish" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AccessingDataJpaApplication">
+    <configuration name="AccessingDataJpaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fullstack.AccessingDataJpaApplication" />
+      <module name="MyMavenModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fullstack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fullstack.MockData" />
+      <module name="MyMavenModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fullstack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fullstack.MyFirst" />
+      <module name="MyMavenModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccessingDataJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="MyMavenModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fullstack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fullstack.AccessingDataJpaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyFirst" />
+      <item itemvalue="Application.MockData" />
+      <item itemvalue="Application.AccessingDataJpaApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AccessingDataJpaApplication" />
+        <item itemvalue="Application.MockData" />
+        <item itemvalue="Application.MyFirst" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="935254b7-9063-4abb-8f04-239fc8e0bd00" name="Default Changelist" comment="" />
+      <created>1574881817165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574881817165</updated>
+      <workItem from="1576939489568" duration="1239000" />
+      <workItem from="1576995542454" duration="14048000" />
+      <workItem from="1577166497685" duration="21000" />
+      <workItem from="1577174962369" duration="22856000" />
+      <workItem from="1578573742060" duration="611000" />
+      <workItem from="1585146105660" duration="834000" />
+      <workItem from="1585147977611" duration="897000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$USER_HOME$/Downloads/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="2" key="#Assign_Data_Sources" timestamp="1576999082234">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="2" key="#Assign_Data_Sources/0.0.1280.680@0.0.1280.680" timestamp="1576999082234" />
+    <state x="233" y="2" key="#Project_Structure" timestamp="1576997035675">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="2" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1576997035675" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576997286668">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1576997286668" />
+    <state x="446" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1577003534728">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1577003534728" />
+    <state x="443" y="209" width="394" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576998550281">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="443" y="209" width="394" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1576998550281" />
+    <state x="421" y="73" key="FileChooserDialogImpl" timestamp="1577700828302">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="73" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1577700828302" />
+    <state width="1237" height="321" key="GridCell.Tab.0.bottom" timestamp="1585148570816">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585148570816" />
+    <state width="1237" height="321" key="GridCell.Tab.0.center" timestamp="1585148570816">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585148570816" />
+    <state width="1237" height="321" key="GridCell.Tab.0.left" timestamp="1585148570815">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585148570815" />
+    <state width="1237" height="321" key="GridCell.Tab.0.right" timestamp="1585148570816">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585148570816" />
+    <state width="1237" height="321" key="GridCell.Tab.1.bottom" timestamp="1577614579904">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577614579904" />
+    <state width="1237" height="321" key="GridCell.Tab.1.center" timestamp="1577614579904">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1577614579904" />
+    <state width="1237" height="321" key="GridCell.Tab.1.left" timestamp="1577614579904">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1577614579904" />
+    <state width="1237" height="321" key="GridCell.Tab.1.right" timestamp="1577614579904">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1577614579904" />
+    <state width="1237" height="265" key="GridCell.Tab.2.bottom" timestamp="1577374143601">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="265" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577374143601" />
+    <state width="1237" height="265" key="GridCell.Tab.2.center" timestamp="1577374143601">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="265" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1577374143601" />
+    <state width="1237" height="265" key="GridCell.Tab.2.left" timestamp="1577374143600">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="265" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1577374143600" />
+    <state width="1237" height="265" key="GridCell.Tab.2.right" timestamp="1577374143601">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="265" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1577374143601" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1577004900980">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1577004900980" />
+    <state x="315" y="45" width="767" height="590" key="NewModule_or_Project.wizard" timestamp="1576940727921">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="315" y="45" width="767" height="590" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1576940727921" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1577548158699">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1577548158699" />
+    <state x="349" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1585148532377">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="349" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585148532377" />
+    <state x="91" y="0" key="new project wizard" timestamp="1577701542942">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1577701542942" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1577614492546">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1577614492546" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1577003919865">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1577003919865" />
+  </component>
+</project>
